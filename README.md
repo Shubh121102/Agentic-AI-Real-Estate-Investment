@@ -1,15 +1,15 @@
-# Agentic-AI-Real-Estate-Investment
-## Retail Property Investment Analysis 
+# Agentic-AI-Real-Estate-Investment 🤖 
+## Retail Property Investment Analysis 🌆
 
-## Overview
+## 📜 Overview
 
 This project leverages CrewAI agents to conduct a comprehensive analysis of potential retail property investments in a specified country. The workflow automates research, financial analysis, risk assessment, and reporting, providing actionable insights for property investors.
 
-## Tech Stack
+## 🛠 Tech Stack
 - Model used:  DeepSeek-R1-70B
 - Framework: CrewAI
 
-## Folder Structure
+## 📁 Folder Structure 
 retail_property_investemnt_project/
 │
 ├── agents.py                # Defines CrewAI agents and LLM setup
@@ -21,7 +21,7 @@ retail_property_investemnt_project/
 │── research_task_output_internet.txt   # Research task output
 └── task2_output.txt                    # Analysis task output
 
-## Features
+## 🚀 Features
 
 - **Market Analysis:**  
   Identifies top retail property investment locations, analyzes market trends, economic indicators, demographics, and local retail ecosystems.
@@ -40,7 +40,7 @@ retail_property_investemnt_project/
 
 ## Tasks
 
-### 1. Research Task
+### 1. 🔍 Research Task
 
 Conducts in-depth research and analysis, producing a data-driven investment recommendation report.  
 **Deliverable:**  
@@ -50,7 +50,7 @@ Conducts in-depth research and analysis, producing a data-driven investment reco
 - Risk assessment  
 - Recommendations for further due diligence
 
-### 2. Analysis Task
+### 2. 📊 Analysis Task
 
 Summarizes property information into a structured bullet-point list for each city, including:  
 - City name  
@@ -59,7 +59,7 @@ Summarizes property information into a structured bullet-point list for each cit
 - Rental yield  
 - Background information
 
-## Usage
+## 💻Installation and Setup
 
 1. **Install dependencies:**  
    ```bash
@@ -75,7 +75,7 @@ Summarizes property information into a structured bullet-point list for each cit
    - `research_task_output_internet.txt`
    - `task2_output.txt`
 
-## Output Format
+## 💾 Output Format
 
 - **Research Report:**  
   Comprehensive, data-driven investment recommendation.
