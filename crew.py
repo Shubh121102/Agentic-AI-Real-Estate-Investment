@@ -2,18 +2,17 @@ from crewai import Crew, Process
 from agents import property_researcher, property_analyst
 from tasks import research_task, analysis_task
 
-crew = Crew(
+def crew_compile(query: str):
+    crew = Crew(
     agents = [property_researcher, property_analyst],
     tasks = [research_task, analysis_task],
     verbose = True,
     process = Process.sequential
-)
+    )
 
-inputs = {
-    "country": input("Enter the country of your choice: ")
-}
+    inputs = {
+    "country": f"Reviewing for {query}"
+    }
 
-result = crew.kickoff(inputs = inputs)
-
-print("=====FINAL REPORT=====")
-print(result.raw)
+    result = crew.kickoff(inputs = inputs)
+    return result.raw
