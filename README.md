@@ -8,6 +8,7 @@ This project leverages CrewAI agents to conduct a comprehensive analysis of pote
 ## 🛠 Tech Stack
 - Model used:  DeepSeek-R1-70B
 - Framework: CrewAI
+- Backend: FastAPI
 
 ## 📁 Folder Structure 
 retail_property_investemnt_project/
@@ -17,6 +18,7 @@ retail_property_investemnt_project/
 ├── main.py                  # Main script to run the CrewAI workflow
 ├── requirements.txt         # Python dependencies
 ├── .env                     # Environment variables (API keys, etc.)
+│── app.py                   # FastAPI Backend
 ├── README.md                # Project documentation
 │── research_task_output_internet.txt   # Research task output
 └── task2_output.txt                    # Analysis task output
